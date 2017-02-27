@@ -5,8 +5,5 @@
 | Contributors | Student Number | Contacts|
 | ------|------|------|
 | Erika Secillano | c15339871 | c15339871@mydit.ie|
-|Ira Javier | c15362901 | c15362901@mydit.ie |
-|Aries Ogaco| | |
-
-
-
+| Ira Javier | c15362901 | c15362901@mydit.ie |
+| Aries Ogaco | c15477298| c15477298@mydit.ie | 
