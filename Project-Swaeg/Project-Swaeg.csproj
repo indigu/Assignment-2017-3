@@ -86,6 +86,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\AnimatorController.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
+    <Compile Include="Assets\Script\Exit.cs" />
     <Compile Include="Assets\Script\Mouse.cs" />
     <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\Script\PlayerCamera.cs" />
