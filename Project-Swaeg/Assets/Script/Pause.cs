@@ -17,18 +17,23 @@ public class Pause : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (canvas.gameObject.activeInHierarchy == false)
-            {
-                canvas.gameObject.SetActive(true);
-                Time.timeScale = 0;
-                Player.GetComponent<FirstPersonController>().enabled = false;
-            }
-            else
-            {
-                canvas.gameObject.SetActive(false);
-                Time.timeScale = 1;
-                Player.GetComponent<FirstPersonController>().enabled = true;
-            }
+            Paused();
         }
 	}
+
+    public void Paused()
+    {
+        if (canvas.gameObject.activeInHierarchy == false)
+        {
+            canvas.gameObject.SetActive(true);
+            Time.timeScale = 0;
+            Player.GetComponent<FirstPersonController>().enabled = false;
+        }
+        else
+        {
+            canvas.gameObject.SetActive(false);
+            Time.timeScale = 1;
+            Player.GetComponent<FirstPersonController>().enabled = true;
+        }
+    }
 }
