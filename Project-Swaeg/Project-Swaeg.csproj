@@ -88,6 +88,7 @@
     <Compile Include="Assets\Script\AnimatorController.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\Exit.cs" />
+    <Compile Include="Assets\Script\InputName.cs" />
     <Compile Include="Assets\Script\Level.cs" />
     <Compile Include="Assets\Script\Menu.cs" />
     <Compile Include="Assets\Script\Mouse.cs" />
