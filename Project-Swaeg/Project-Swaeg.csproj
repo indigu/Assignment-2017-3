@@ -93,7 +93,6 @@
     <Compile Include="Assets\Script\Mouse.cs" />
     <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\Script\PlayerCamera.cs" />
-    <Compile Include="Assets\Script\Start.cs" />
     <Compile Include="Assets\Script\SunMoonMove.cs" />
   </ItemGroup>
   <ItemGroup>
