@@ -8,4 +8,9 @@ public class Level : MonoBehaviour {
     {
         Application.LoadLevel(name);
     }
+    
+    public void QuitScene()
+    {
+        Application.Quit();
+    }
 }
