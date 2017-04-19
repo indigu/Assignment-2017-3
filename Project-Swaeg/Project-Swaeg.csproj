@@ -88,9 +88,12 @@
     <Compile Include="Assets\Script\AnimatorController.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\Exit.cs" />
+    <Compile Include="Assets\Script\Level.cs" />
+    <Compile Include="Assets\Script\Menu.cs" />
     <Compile Include="Assets\Script\Mouse.cs" />
     <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\Script\PlayerCamera.cs" />
+    <Compile Include="Assets\Script\Start.cs" />
     <Compile Include="Assets\Script\SunMoonMove.cs" />
   </ItemGroup>
   <ItemGroup>
