@@ -11,9 +11,11 @@ public class Enemy : MonoBehaviour {
     void Start () {
         tr_Player = GameObject.FindGameObjectWithTag("Player").transform;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+
+
+    // Update is called once per frame
+    void Update () {
         transform.rotation = Quaternion.Slerp(transform.rotation
                             ,Quaternion.LookRotation(tr_Player.position - transform.position)
                             ,f_RotSpeed * Time.deltaTime);
