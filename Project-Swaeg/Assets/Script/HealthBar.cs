@@ -14,12 +14,12 @@ public class HealthBar : MonoBehaviour {
 
     void Start ()
     {
-        InvokeRepeating("ReduceHealth", 1, 1);
+        InvokeRepeating("Reduce", 1, 1);
     }
 
-	void ReduceHealth()
+	void Reduce()
     {
-        health = health - 10;
+        health = health - 2;
         healthBar.value = health;
     }
 

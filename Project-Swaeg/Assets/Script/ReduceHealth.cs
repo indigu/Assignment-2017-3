@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ReduceHealth : MonoBehaviour {
 
-    void onTriggerEnter(Enemy other)
+    void onTriggerEnter(Collider other)
     {
-        HealthBar.health -= 50;
+        HealthBar.health += 30;
     }
 
 
