@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour {
     float f_RotSpeed = 3.0f, f_MoveSpeed = 3.0f;
 
     // Use this for initialization
+
+
     void Start () {
         tr_Player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -24,6 +26,8 @@ public class Enemy : MonoBehaviour {
 
 
     }
+
+
 }
 
 
