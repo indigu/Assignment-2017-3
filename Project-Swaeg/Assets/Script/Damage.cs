@@ -12,6 +12,7 @@ public class Damage : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         PlayerManager.health -= 5;
+        Destroy(this.gameObject);
     }
 
 
