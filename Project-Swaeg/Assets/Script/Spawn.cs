@@ -18,7 +18,9 @@ public class Spawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+        if (Input.GetKey(KeyCode.Q))
+            SpawnEnemy();
 	}
 
     public void SpawnEnemy()
@@ -27,7 +29,7 @@ public class Spawn : MonoBehaviour {
         Instantiate(Enemyprefab, pos, Quaternion.identity);
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmoSelected()
     {
         Gizmos.color = new Color(1, 0, 0, 0.5f);
         Gizmos.DrawCube(transform.localPosition, size);
