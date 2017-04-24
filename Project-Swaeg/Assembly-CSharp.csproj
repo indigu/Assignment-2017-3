@@ -49,6 +49,8 @@
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
      <Compile Include="Assets\Script\AnimatorController.cs" />
      <Compile Include="Assets\Script\Damage.cs" />
+     <Compile Include="Assets\Script\Damage2.cs" />
+     <Compile Include="Assets\Script\DamageMaster.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\Exit.cs" />
      <Compile Include="Assets\Script\InputName.cs" />
