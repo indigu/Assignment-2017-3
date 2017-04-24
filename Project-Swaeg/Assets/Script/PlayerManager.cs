@@ -3,29 +3,27 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class HealthBar : MonoBehaviour {
-
-    // Use this for initialization
+public class PlayerManager : MonoBehaviour {
 
     public static int health = 100;
     public GameObject player;
     public Slider healthBar;
 
+    // Use this for initialization
+    void Start () {
 
-    void Start ()
-    {
-        InvokeRepeating("Reduce", 1, 1);
+        InvokeRepeating("ReduceHealth", 1, 1);
+        
     }
 
-	void Reduce()
+    public void ReduceHealth()
     {
-        health = health - 2;
         healthBar.value = health;
     }
 
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
-
