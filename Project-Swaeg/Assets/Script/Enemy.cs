@@ -5,9 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     Transform tr_Player;
-    float f_RotSpeed = 3.0f, f_MoveSpeed = 3.0f;
+    float f_RotSpeed = 3.0f, f_MoveSpeed = 7.0f;
 
     // Use this for initialization
+
+
     void Start () {
         tr_Player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -24,6 +26,8 @@ public class Enemy : MonoBehaviour {
 
 
     }
+
+
 }
 
 

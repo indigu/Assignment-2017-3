@@ -86,6 +86,9 @@
   <ItemGroup>
     <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
     <Compile Include="Assets\Script\AnimatorController.cs" />
+    <Compile Include="Assets\Script\Damage.cs" />
+    <Compile Include="Assets\Script\Damage2.cs" />
+    <Compile Include="Assets\Script\DamageMaster.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\Exit.cs" />
     <Compile Include="Assets\Script\InputName.cs" />
@@ -94,6 +97,8 @@
     <Compile Include="Assets\Script\Mouse.cs" />
     <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\Script\PlayerCamera.cs" />
+    <Compile Include="Assets\Script\PlayerManager.cs" />
+    <Compile Include="Assets\Script\Spawn.cs" />
     <Compile Include="Assets\Script\SunMoonMove.cs" />
   </ItemGroup>
   <ItemGroup>
