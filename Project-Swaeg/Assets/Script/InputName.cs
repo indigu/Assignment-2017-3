@@ -7,7 +7,7 @@ public class InputName : MonoBehaviour {
 
     public InputField playerName;
 
-    private string charName;
+    private string charName = "Player Name";
 
     public void onSubmit()
     {
