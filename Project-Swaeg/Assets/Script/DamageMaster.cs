@@ -11,7 +11,7 @@ public class DamageMaster : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        PlayerManager.health -= 30;
+        PlayerManager.health -= 40;
         Destroy(this.gameObject);
     }
 
