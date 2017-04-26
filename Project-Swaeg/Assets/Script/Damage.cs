@@ -5,9 +5,9 @@ using UnityEngine;
 public class Damage : MonoBehaviour {
 
     public bool isDamaging;
-    public float damage = 10;
+    public float damage = 100;
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
         if(col.tag == "Player")
         {

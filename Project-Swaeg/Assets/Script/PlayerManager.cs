@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour {
         ratioText.text = (ratio * 100).ToString("f2") + '%';
     }
 
-    public void TakeDamage(float damage)
+    private void TakeDamage(float damage)
     {
         hitpoint -= damage;
         if(hitpoint < 0)
