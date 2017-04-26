@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public bool isDamaging;
+    public float damage = 10;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider col)
     {
-        PlayerManager.health -= 5;
-        Destroy(this.gameObject);
+        if(col.tag == "Player")
+        {
+            col.SendMessage((isDamaging) ? "TakeDamage" : "HealDamage", Time.deltaTime * damage);
+            Destroy(this.gameObject);
+        }
     }
-
-
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
