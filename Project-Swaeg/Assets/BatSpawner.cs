@@ -9,11 +9,16 @@ public class BatSpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Instantiate(spawn, transform.position, Quaternion.identity);
-
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(!GameObject.FindGameObjectWithTag("Bat"))
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Instantiate(spawn, transform.position, Quaternion.identity);
+            }
+        }
 	}
 }
